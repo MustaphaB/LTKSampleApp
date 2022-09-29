@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		D56540F228E54EC10060BD8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56540F128E54EC10060BD8A /* AppDelegate.swift */; };
 		D56540F428E54EC10060BD8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56540F328E54EC10060BD8A /* SceneDelegate.swift */; };
-		D56540F628E54EC10060BD8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56540F528E54EC10060BD8A /* ViewController.swift */; };
-		D56540F928E54EC10060BD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56540F728E54EC10060BD8A /* Main.storyboard */; };
+		D56540F628E54EC10060BD8A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56540F528E54EC10060BD8A /* HomeViewController.swift */; };
 		D56540FB28E54EC10060BD8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56540FA28E54EC10060BD8A /* Assets.xcassets */; };
 		D56540FE28E54EC10060BD8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56540FC28E54EC10060BD8A /* LaunchScreen.storyboard */; };
+		D565410628E550C00060BD8A /* HeroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565410528E550C00060BD8A /* HeroCollectionViewCell.swift */; };
+		D565410828E553AF0060BD8A /* LTKModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565410728E553AF0060BD8A /* LTKModel.swift */; };
+		D565410A28E553C90060BD8A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565410928E553C90060BD8A /* NetworkManager.swift */; };
+		D565410C28E561190060BD8A /* HeroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565410B28E561190060BD8A /* HeroDetailViewController.swift */; };
+		D565410E28E576DE0060BD8A /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565410D28E576DE0060BD8A /* ProductCollectionViewCell.swift */; };
+		DC91079553F2596E6CC2F6AA /* Pods_LTKProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497CB361D1B089E7BCCC9B92 /* Pods_LTKProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0504749B8A31C236FD6D31A9 /* Pods-LTKProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTKProject.debug.xcconfig"; path = "Target Support Files/Pods-LTKProject/Pods-LTKProject.debug.xcconfig"; sourceTree = "<group>"; };
+		1D3195EAFFEE90FB65C56C75 /* Pods-LTKProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTKProject.release.xcconfig"; path = "Target Support Files/Pods-LTKProject/Pods-LTKProject.release.xcconfig"; sourceTree = "<group>"; };
+		497CB361D1B089E7BCCC9B92 /* Pods_LTKProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTKProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56540EE28E54EC10060BD8A /* LTKProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTKProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56540F128E54EC10060BD8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D56540F328E54EC10060BD8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D56540F528E54EC10060BD8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D56540F828E54EC10060BD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D56540F528E54EC10060BD8A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D56540FA28E54EC10060BD8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D56540FD28E54EC10060BD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D56540FF28E54EC10060BD8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D565410528E550C00060BD8A /* HeroCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCollectionViewCell.swift; sourceTree = "<group>"; };
+		D565410728E553AF0060BD8A /* LTKModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTKModel.swift; sourceTree = "<group>"; };
+		D565410928E553C90060BD8A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D565410B28E561190060BD8A /* HeroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetailViewController.swift; sourceTree = "<group>"; };
+		D565410D28E576DE0060BD8A /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC91079553F2596E6CC2F6AA /* Pods_LTKProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3B4A1E681537DC6C110A22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0504749B8A31C236FD6D31A9 /* Pods-LTKProject.debug.xcconfig */,
+				1D3195EAFFEE90FB65C56C75 /* Pods-LTKProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C728DE305CE535EAA0D246B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				497CB361D1B089E7BCCC9B92 /* Pods_LTKProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D56540E528E54EC10060BD8A = {
 			isa = PBXGroup;
 			children = (
 				D56540F028E54EC10060BD8A /* LTKProject */,
 				D56540EF28E54EC10060BD8A /* Products */,
+				0F3B4A1E681537DC6C110A22 /* Pods */,
+				C728DE305CE535EAA0D246B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +90,12 @@
 			children = (
 				D56540F128E54EC10060BD8A /* AppDelegate.swift */,
 				D56540F328E54EC10060BD8A /* SceneDelegate.swift */,
-				D56540F528E54EC10060BD8A /* ViewController.swift */,
-				D56540F728E54EC10060BD8A /* Main.storyboard */,
+				D565410728E553AF0060BD8A /* LTKModel.swift */,
+				D565410928E553C90060BD8A /* NetworkManager.swift */,
+				D56540F528E54EC10060BD8A /* HomeViewController.swift */,
+				D565410B28E561190060BD8A /* HeroDetailViewController.swift */,
+				D565410528E550C00060BD8A /* HeroCollectionViewCell.swift */,
+				D565410D28E576DE0060BD8A /* ProductCollectionViewCell.swift */,
 				D56540FA28E54EC10060BD8A /* Assets.xcassets */,
 				D56540FC28E54EC10060BD8A /* LaunchScreen.storyboard */,
 				D56540FF28E54EC10060BD8A /* Info.plist */,
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D565410228E54EC10060BD8A /* Build configuration list for PBXNativeTarget "LTKProject" */;
 			buildPhases = (
+				797966C1F9B3FDF6985B95E6 /* [CP] Check Pods Manifest.lock */,
 				D56540EA28E54EC10060BD8A /* Sources */,
 				D56540EB28E54EC10060BD8A /* Frameworks */,
 				D56540EC28E54EC10060BD8A /* Resources */,
+				4F2118E0839F9A62EFEFDF29 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +165,64 @@
 			files = (
 				D56540FE28E54EC10060BD8A /* LaunchScreen.storyboard in Resources */,
 				D56540FB28E54EC10060BD8A /* Assets.xcassets in Resources */,
-				D56540F928E54EC10060BD8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F2118E0839F9A62EFEFDF29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTKProject/Pods-LTKProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTKProject/Pods-LTKProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LTKProject/Pods-LTKProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		797966C1F9B3FDF6985B95E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LTKProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D56540EA28E54EC10060BD8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D56540F628E54EC10060BD8A /* ViewController.swift in Sources */,
+				D565410A28E553C90060BD8A /* NetworkManager.swift in Sources */,
+				D565410628E550C00060BD8A /* HeroCollectionViewCell.swift in Sources */,
+				D565410E28E576DE0060BD8A /* ProductCollectionViewCell.swift in Sources */,
+				D565410C28E561190060BD8A /* HeroDetailViewController.swift in Sources */,
+				D565410828E553AF0060BD8A /* LTKModel.swift in Sources */,
+				D56540F628E54EC10060BD8A /* HomeViewController.swift in Sources */,
 				D56540F228E54EC10060BD8A /* AppDelegate.swift in Sources */,
 				D56540F428E54EC10060BD8A /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +231,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D56540F728E54EC10060BD8A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D56540F828E54EC10060BD8A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D56540FC28E54EC10060BD8A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +358,7 @@
 		};
 		D565410328E54EC10060BD8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0504749B8A31C236FD6D31A9 /* Pods-LTKProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +369,6 @@
 				INFOPLIST_FILE = LTKProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +386,7 @@
 		};
 		D565410428E54EC10060BD8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3195EAFFEE90FB65C56C75 /* Pods-LTKProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +397,6 @@
 				INFOPLIST_FILE = LTKProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
