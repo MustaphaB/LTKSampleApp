@@ -6,9 +6,8 @@
 //
 
 import UIKit
-import WebKit
 
-class HeroDetailViewController: UIViewController, WKUIDelegate {
+class HeroDetailViewController: UIViewController{
     
     var nameLabel = UILabel()
     var profileImageView: UIImageView!
